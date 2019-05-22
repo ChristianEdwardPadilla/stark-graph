@@ -105,7 +105,6 @@ const AlgoSelector = props => {
     >
       <pre>
         <code className="language-javascript">{activeTree === 2 ? heapString : BSTstring}</code>
-        {/* <code className="language-javascript">{heapString}</code> */}
       </pre>
     </div>
   );
