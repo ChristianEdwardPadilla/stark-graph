@@ -14,6 +14,7 @@ function addElement(state, val) {
   // get the active tree array and add the new val to a copy
   const activeTreeArr = treesArr[activeTree];
 
+  // duplicate values are not allowed in these trees
   if (activeTreeArr.includes(valNum)) {
     return state;
   }
