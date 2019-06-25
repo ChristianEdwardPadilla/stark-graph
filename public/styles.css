@@ -1,21 +1,34 @@
-/* all style done inline atm */
-
-/* app-wide */
 body {
   width: 100%;
   height: 100%;
 }
 
-/* div of MainContainer */
-.main-container {
-  display: flex;
-  width: 30px;
-  height: 30px;
-  border-style: solid;
-  border-width: 2px;
+.btn {
+  margin-left: .5em
 }
 
-/* div of RightBar within MainContainer */
-.right-bar {
+.app {
+  background-color: #2d2d2d !important;
   display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.main-container {
+
+  display: flex;
+  height: 100%;
+}
+
+.code-container {
+  width: auto;
+  overflow-y: auto;
+  height: 100%;
 }
